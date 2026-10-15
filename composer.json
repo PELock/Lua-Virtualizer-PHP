@@ -1,0 +1,31 @@
+{
+  "name": "pelock/lua-virtualizer",
+  "version": "1.0.0",
+  "description": "Lua Virtualizer Web API interface can help you obfuscate and protect Lua .lua source code against analysis, reverse engineering and technology theft. Lua Virtualizer provides advanced Lua source code parsing based on AST trees, multiple advanced obfuscation, virtualization and protection strategies are available.",
+  "type": "library",
+  "keywords": ["lua", "obfuscator", "virtualizer", "pelock", "protection"],
+  "homepage": "https://www.pelock.com/products/lua-virtualizer",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Bartosz Wójcik",
+      "email": "support@pelock.com",
+      "homepage": "https://www.pelock.com"
+    }
+  ],
+  "support": {
+    "source": "https://github.com/PELock/Lua-Virtualizer-PHP"
+  },
+  "require": {
+    "php": ">=8.1.0",
+    "ext-zlib": "*",
+    "ext-json": "*",
+    "ext-curl": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "PELock\\LuaVirtualizer\\": "src/",
+      "PELock\\LuaVirtualizer\\examples\\": "examples/"
+    }
+  }
+}
